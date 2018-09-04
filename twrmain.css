@@ -1,0 +1,130 @@
+#head {
+	position: fixed;
+	float: center;
+	z-index: 2;
+	right: 800px;
+    left: -40px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#highbound {
+	position: fixed;
+	top: 200px;
+	z-index: 1;
+	position: fixed;
+	right: 10px;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+#lowbound {
+	position: relative;
+	top: 0px;
+	left: -5px;
+	z-index: 1;
+}
+
+a {
+	color: #555555;
+}
+
+.whiteblock {
+	position: fixed;
+	height: 400px;
+	top: -190px;
+	background-color: #FFFFFF;
+	width: 100%;
+	z-index; -1;
+}
+
+.wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	padding-top: 50px;
+	font-family: "Avante Garde", "Century Gothic", serif;
+}
+
+.inwrapper {
+	min-height: 500px;
+	padding-top: 152px;
+	padding-left: 8px;
+	width: 1100px;
+}
+
+.mainText {
+	margin: 0px 20px 10px 20px;
+	padding: 10px 10px 10px 10px;
+	padding-left: 300px;
+}
+
+.textHeader {
+	font-weight: normal;
+	font-size: 30px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+.menu {
+	position: fixed;
+	background-color: #FFFFFF;
+	color: #555555;
+	font-size: 20px;
+	width: 300px;
+}
+.menu a {
+	text-decoration: none;
+}
+
+.vLine {
+	padding: 10px 0px 10px 0px;
+}
+
+.vLine:hover {
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.vLine:hover a {
+	color: #FFFFFF;
+}
+.invLine {
+	padding: 10px 0px 10px 0px;
+	color: #FFFFFF;
+	background-color: #000000;
+}
+.invLine a {
+	color: #FFFFFF;
+}
+
+.vLine2 {
+	padding: 10px 0px 10px 0px;
+	display:none;
+	color: #FFFFFF;
+	background-color: #000000;
+	margin: 10px 15px 5px 15px;
+}
+.vLine2:hover {
+	color: #555555;
+	background-color: #FFFFFF;
+}
+.vLine:hover  > .vLine2 {
+	display:block;
+}
+
+.cLine {
+	padding: 10px 0px 10px 0px;
+	display:none;
+	color: #555555;
+	background-color: #FFFFFF;
+	margin-top: 10px;
+}
+.vLine:hover  > .cLine {
+	display:block;
+}
+
+#mediabox {
+	padding: 10px 5px 0px 5px;
+}
+
+#copy {
+	text-align: center;
+}
