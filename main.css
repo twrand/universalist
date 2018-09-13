@@ -1,0 +1,128 @@
+/* 1. Body, link, heading, and document tag settings */
+
+/* Header and link color: #303030 */
+/* Background color:  #FFFFF0 */
+
+body {
+	background-color: #FFFFF0;
+}
+
+
+a  { color: #303030; font-family: Georgia, serif;
+	font-weight: bold; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.anchor {
+	/* offset same as topblock height */
+    display: block;
+    position: relative;
+    top: -80px;
+    visibility: hidden;
+}
+
+p  {
+	margin-top:    8px;
+	margin-bottom: 0px;
+}
+ul {
+	margin-top: 8px;
+	margin-bottom: 0px;
+}
+li {
+	margin-top: 8px;
+}
+h1 {  font-family: Georgia, serif; }
+h2 { font-family: Georgia, serif; 
+	margin-bottom: 0px;}
+h3 { font-family: Georgia, serif; 
+	margin-top: 8px;
+	margin-bottom: 0px; }
+.h { font-family: Georgia, serif;
+	font-size: 18px; 
+	font-weight: bold;
+	display: inline-block;
+}
+
+/*hr.fancy {
+	border: none;
+	background-color: #202020;
+	width: 90%;
+	height: 0.5px;
+}*/
+
+
+/* 2. Body classes, in order of appearance */
+
+.wrapper {
+	position:static;
+	font-family: "Verdana", sans-serif;
+	line-height: 1.2;
+	color: #202020;
+}
+
+.topblock {
+	margin: auto;
+	width: 768px;
+} 
+.topcontent {
+	position: fixed;
+	width: 768px;
+	height: 70px;
+	top: -4px;
+	
+	background-color: #FFFFF0;
+	z-index: 1;
+	
+	border-bottom: 2px solid #202020;
+}
+
+#name {
+	position: absolute;
+	top: -15px;
+	left: 25px;
+}
+#menubar {
+	position: absolute;
+	top: 45px;
+	left: 25px;
+}
+
+
+
+.centerblock {
+	margin: auto;
+	width: 768px;
+}
+.maintext {
+	position: relative;
+	margin-left: 18px;
+	padding-top: 50px;
+	width: 732px;
+}
+.mainsection{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+#mephoto {
+	position: absolute;
+	right: 0px;
+	top: 100px;
+}
+.lalign {
+	text-align: left;
+}
+#copy {
+	text-align: center;
+	font-size: 10pt;
+}
+
+
+
+.bottomblock {
+	margin: auto;
+	width: 768px;
+	height: calc(100vh - 80px);
+	
+	border-top: 2px solid #202020;
+	padding-top: 5px;
+} 
+
