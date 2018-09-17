@@ -8,7 +8,7 @@ body {
 }
 
 
-a  { color: #303030; font-family: Georgia, serif;
+a  { color: #303030; font-family: Times, serif;
 	font-weight: bold; text-decoration: none; }
 a:hover { text-decoration: underline; }
 .anchor {
@@ -30,13 +30,13 @@ ul {
 li {
 	margin-top: 8px;
 }
-h1 {  font-family: Georgia, serif; }
-h2 { font-family: Georgia, serif; 
+h1 {  font-family: Times, serif; }
+h2 { font-family: Times, serif; 
 	margin-bottom: 0px;}
-h3 { font-family: Georgia, serif; 
+h3 { font-family: Times, serif; 
 	margin-top: 8px;
 	margin-bottom: 0px; }
-.h { font-family: Georgia, serif;
+.h { font-family: Times, serif;
 	font-size: 18px; 
 	font-weight: bold;
 	display: inline-block;
@@ -54,7 +54,7 @@ h3 { font-family: Georgia, serif;
 
 .wrapper {
 	position:static;
-	font-family: "Verdana", sans-serif;
+	font-family: "Arial", sans-serif;
 	line-height: 1.2;
 	color: #202020;
 }
