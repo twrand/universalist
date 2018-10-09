@@ -28,16 +28,17 @@ li {
 }
 	margin-top: 8px;
 }
-h1 {  font-family: Verdana, serif; 
+h1 {  font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, serif; 
 	  font-weight: normal; }
-h2 { font-family: Verdana, serif; 
+h2 { font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, serif; 
 	margin-bottom: 12px;
 	font-weight: normal; }
-h3 { font-family: Verdana, serif; 
+h3 { font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, serif; 
 	margin-top: 12px;
 	margin-bottom: 0px; 
-	font-weight: normal; }
-.h { font-family: Times, serif;
+	font-weight: normal; 
+	font-style: italic;}
+.h { font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, serif;
 	font-size: 16px; 
 	font-weight: bold;
 	display: inline-block;
@@ -55,7 +56,7 @@ h3 { font-family: Verdana, serif;
 
 .wrapper {
 	position:static;
-	font-family: Garamond, Times New Roman, serif;
+	font-family: Garamond, Garamond, Baskerville, Hoefler Text, Times New Roman, serif New Roman, serif;
 	line-height: 1.3;
 	color: #202020;
 }
@@ -106,7 +107,7 @@ h3 { font-family: Verdana, serif;
 #mephoto {
 	position: absolute;
 	right: 0px;
-	top: 100px;
+	top: 70px;
 }
 .lalign {
 	text-align: left;
