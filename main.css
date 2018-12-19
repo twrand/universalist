@@ -1,16 +1,36 @@
-/* 1. Body, link, heading, and document tag settings */
-
-/* Header and link color: #303030 */
-/* Background color:  #FFFFF0 */
-
-body {
+:root {
+	--bgcolor: #FFFFFF;
+	--h1-font: "Times New Roman", Times, serif;
+	--header-font: Georgia, serif;
+	--font: "Times New Roman", Times, serif;
+	--line-height: 1.15;
+	
+	--content-bgcolor: #FFFFFF;
+	--content-width: 960px;
+	--content-margin: 15px;
+	--content-text-width: 930px;
+	
+	--spacing: 10px;
+	
+	--font-color: #484848;
+	--header-color: #303030;
+	--link-color: #808080;
 }
 
 
-a  { color: #303030; font-weight: bold; text-decoration: none; }
+body {
+	background-color: var(--bgcolor);
+	font-family: var(--font);
+}
+
+a  { 
+	color: var(--link-color); 
+	text-decoration: none; 
+}
 a:hover { text-decoration: underline; }
+
 .anchor {
-	/* offset same as topblock height */
+	/* spacing same as topblock height */
     display: block;
     position: relative;
     top: -80px;
@@ -18,87 +38,89 @@ a:hover { text-decoration: underline; }
 }
 
 p  {
-	margin-top:    8px;
+	margin-top:    var(--spacing);
 	margin-bottom: 0px;
 }
 ul {
-	margin-top: 8px;
-	margin-bottom: 0px;
+	margin-top: var(--spacing);
+	margin-bottom: var(--spacing);
+	list-style-type: circle;
+}
 li {
+	margin-top: var(--spacing);
 }
-	margin-top: 8px;
+
+h2, h3, h4 {
+	font-family: var(--header-font);
+	font-weight: normal;
+	color: var(--header-color);
 }
-h1 {  font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, serif; 
-	  font-weight: normal; }
-h2 { font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, serif; 
-	margin-bottom: 12px;
-	font-weight: normal; }
-h3 { font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, serif; 
+
+h1 {
+	font-weight: normal;
+	font-family: var(--h1-font);
+	font-size: 56px;
+	color: #000000;
+}
+h2 { margin-bottom: 10px;
+	font-family: var(--header-font);
+}
+h3 { 
 	margin-top: 12px;
-	margin-bottom: 0px; 
-	font-weight: normal; 
-	font-style: italic;}
-.h { font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, serif;
-	font-size: 16px; 
-	font-weight: bold;
-	display: inline-block;
+	margin-bottom: 0px;  
+	font-style: italic;
+	font-family: var(--header-font);
 }
-
-/*hr.fancy {
-	border: none;
-	background-color: #202020;
-	width: 90%;
-	height: 0.5px;
-}*/
-
 
 /* 2. Body classes, in order of appearance */
 
 .wrapper {
 	position:static;
-	font-family: Garamond, Garamond, Baskerville, Hoefler Text, Times New Roman, serif New Roman, serif;
-	line-height: 1.3;
-	color: #202020;
+	line-height: var(--line-height);
+	color: var(--font-color);
 }
 
 .topblock {
 	margin: auto;
-	width: 768px;
+	width: var(--content-width);
 } 
 .topcontent {
 	position: fixed;
-	width: 768px;
-	height: 70px;
+	width: var(--content-width);
+	height: 65px;
 	top: -4px;
 	
-	background-color: #FFFFF8;
+	background-color: var(--bgcolor);
 	z-index: 1;
 	
-	border-bottom: 2px solid #202020;
+	/*border-bottom: 1px solid #F0F0F0;*/
 }
 
 #name {
 	position: absolute;
-	top: -15px;
+	top: -30px;
 	left: 25px;
 }
 #menubar {
+	font-family: var(--font);
 	position: absolute;
-	top: 45px;
-	left: 25px;
+	top: 26px;
+	right: 10px;
+	word-spacing: 20px;
 }
 
 
 
 .centerblock {
 	margin: auto;
-	width: 768px;
+	width: var(--content-width);
+	background-color: var(--content-bgcolor);
 }
 .maintext {
 	position: relative;
-	margin-left: 18px;
+	margin-left: var(--content-margin);
 	padding-top: 50px;
-	width: 732px;
+	width: var(--content-text-width);
 }
 .mainsection{
 	margin-top: 25px;
@@ -106,7 +128,7 @@ h3 { font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, s
 }
 #mephoto {
 	position: absolute;
-	right: 0px;
+	right: 10px;
 	top: 70px;
 }
 .lalign {
@@ -115,16 +137,17 @@ h3 { font-family: Garamond, Baskerville, Hoefler Text, Times New Roman, serif, s
 #copy {
 	text-align: center;
 	font-size: 10pt;
+	color: var(--font-color);
 }
 
 
 
 .bottomblock {
 	margin: auto;
-	width: 768px;
-	height: calc(100vh - 80px);
+	width: var(--content-width);
+	height: calc(100vh - 75px);
 	
-	border-top: 2px solid #202020;
+	/*border-top: 1px solid #F0F0F0;*/
 	padding-top: 5px;
 } 
 
