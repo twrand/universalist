@@ -6,9 +6,9 @@
 	--line-height: 1.15;
 	
 	--content-bgcolor: #FFFFFF;
-	--content-width: 960px;
+	--content-width: 720px;
 	--content-margin: 15px;
-	--content-text-width: 930px;
+	--content-text-width: 690px;
 	
 	--spacing: 10px;
 	
@@ -82,12 +82,12 @@ h3 {
 
 .topblock {
 	margin: auto;
-	width: var(--content-width);
 } 
 .topcontent {
 	position: fixed;
-	width: var(--content-width);
-	height: 65px;
+	width: 100%;
+	min-width: var(--content-width);
+	height: 75px;
 	top: -4px;
 	
 	background-color: var(--bgcolor);
@@ -104,9 +104,9 @@ h3 {
 #menubar {
 	font-family: var(--font);
 	position: absolute;
-	top: 26px;
-	right: 10px;
-	word-spacing: 20px;
+	top: 31px;
+	right: 20px;
+	word-spacing: 15px;
 }
 
 
@@ -126,13 +126,12 @@ h3 {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
-#mephoto {
-	position: absolute;
-	right: 10px;
-	top: 70px;
-}
 .lalign {
-	text-align: left;
+	text-align: center;
+}
+#mephoto {
+	margin: auto;
+	top: 70px;
 }
 #copy {
 	text-align: center;
@@ -145,7 +144,6 @@ h3 {
 .bottomblock {
 	margin: auto;
 	width: var(--content-width);
-	height: calc(100vh - 75px);
 	
 	/*border-top: 1px solid #F0F0F0;*/
 	padding-top: 5px;
