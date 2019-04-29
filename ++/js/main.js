@@ -312,14 +312,14 @@ function updateLocation() {
 		windY = Math.round(x0/10);
 		windDirectionString = "";
 		if (windY != 0 && Math.abs(windX/windY) < 2) {
-			if (windY > 0) { windDirectionString += "S"; }
-			else { windDirectionString += "N"; }
+			if (windY > 0) { windDirectionString += "s"; }
+			else { windDirectionString += "n"; }
 		}
 		if (windX != 0 && Math.abs(windY/windX) < 2) {
-			if (windX > 0) { windDirectionString += "E"; }
-			else { windDirectionString += "W"; }
+			if (windX > 0) { windDirectionString += "e"; }
+			else { windDirectionString += "w"; }
 		}
-		if (windX == 0 && windY == 0) { windDirectionString = "N"; }
+		if (windX == 0 && windY == 0) { windDirectionString = "n"; }
 		document.getElementById("winddirection").innerHTML = windDirectionString;
 		document.getElementById("compass").innerHTML="<img src=\"img/compass"+windDirectionString+".png\" height=\"32px\" width=\"32px\"/>";
 	// delta factor is determined by a function that makes it fairly random.
