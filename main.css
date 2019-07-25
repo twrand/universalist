@@ -1,8 +1,8 @@
 :root {
 	--bgcolor: #FFFFFF;
-	--h1-font: "Times New Roman", Times, serif;
+	--h1-font: Georgia, Times, serif;
 	--header-font: Georgia, serif;
-	--font: "Times New Roman", Times, serif;
+	--font: Georgia, Times, serif;
 	--line-height: 1.15;
 	
 	--content-bgcolor: #FFFFFF;
@@ -14,7 +14,7 @@
 	
 	--font-color: #484848;
 	--header-color: #303030;
-	--link-color: #808080;
+	--link-color: #39CCCC;
 }
 
 
@@ -25,7 +25,8 @@ body {
 
 a  { 
 	color: var(--link-color); 
-	text-decoration: none; 
+	text-decoration: none;
+	font-weight: 500;
 }
 a:hover { text-decoration: underline; }
 
