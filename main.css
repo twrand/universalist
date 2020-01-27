@@ -65,6 +65,7 @@ h1 {
 }
 h2 { margin-bottom: 10px;
 	font-family: var(--header-font);
+	font-family: var(--header-font);
 }
 h3 { 
 	margin-top: 12px;
@@ -140,6 +141,9 @@ h3 {
 	color: var(--font-color);
 }
 
+#booklist {
+	font-size:12px;
+}
 
 
 .bottomblock {
