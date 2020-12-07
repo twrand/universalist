@@ -1,34 +1,40 @@
 :root {
-	--bgcolor: #FFFFFF;
-	--h1-font: Georgia, Times, serif;
-	--header-font: Georgia, serif;
-	--font: Georgia, Times, serif;
-	--line-height: 1.15;
+	--font: Crimson Text, Times, serif;
+	--h1-font: Cormorant, Times, serif;
+	--header-font: Cantarell, sans-serif;
+	--alt-font: Cantarell, sans-serif;
+	--line-height: 1.3;
 	
-	--content-bgcolor: #FFFFFF;
-	--content-width: 900px;
+	--content-width: 800px;
 	--content-margin: 15px;
-	--content-text-width: 870px;
+	--content-text-width: 770px;
 	
 	--spacing: 10px;
 	
-	--font-color: #484848;
-	--header-color: #303030;
-	--link-color: #39CCCC;
+	--color: #474853;
+	--alt-color: #AAA0A0;
+	--link-color: #86B3D1;
+	
+	--bgcolor: #FFFFFF;
+	--alt-bgcolor: #FFFFFF;
 }
 
 
 body {
 	background-color: var(--bgcolor);
 	font-family: var(--font);
+	margin:0;
+	padding:0;
+	font-size: 1.1em;
 }
 
 a  { 
 	color: var(--link-color); 
 	text-decoration: none;
-	font-weight: 500;
 }
-a:hover { text-decoration: underline; }
+a:hover { 
+	text-decoration: underline; 
+}
 
 .anchor {
 	/* spacing same as topblock height */
@@ -54,24 +60,30 @@ li {
 h2, h3, h4 {
 	font-family: var(--header-font);
 	font-weight: normal;
-	color: var(--header-color);
 }
 
 h1 {
 	font-weight: normal;
 	font-family: var(--h1-font);
-	font-size: 56px;
-	color: #000000;
+	font-size: 30px;
 }
-h2 { margin-bottom: 10px;
+h2 { /* Used for headings in main section */
+	margin-top: 15px;
+	margin-bottom: 10px;
+	
 	font-family: var(--header-font);
-	font-family: var(--header-font);
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 20px;
 }
-h3 { 
-	margin-top: 12px;
-	margin-bottom: 0px;  
-	font-style: italic;
+h3 { /* Used for paper subheadings in subsection */
+	margin-top: 10px;
+	margin-bottom: -5px;
+	
 	font-family: var(--header-font);
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 16px;
 }
 
 /* 2. Body classes, in order of appearance */
@@ -79,36 +91,42 @@ h3 {
 .wrapper {
 	position:static;
 	line-height: var(--line-height);
-	color: var(--font-color);
+	color: var(--color);
 }
 
 .topblock {
 	margin: auto;
+	border: 1px;
 } 
 .topcontent {
 	position: fixed;
 	width: 100%;
 	min-width: var(--content-width);
-	height: 75px;
+	height: 50px;
 	top: -4px;
 	
-	background-color: var(--bgcolor);
 	z-index: 1;
 	
-	/*border-bottom: 1px solid #F0F0F0;*/
+	background-color: var(--alt-bgcolor);
+	border-bottom: 1px solid #AAA0A0;
 }
+
+
 
 #name {
 	position: absolute;
-	top: -30px;
-	left: 25px;
+	top: -10px;
+	left: 30px;
+	color: var(--color);
 }
 #menubar {
-	font-family: var(--font);
+	font-family: var(--alt-font);
 	position: absolute;
-	top: 31px;
+	top: 21px;
 	right: 20px;
+	font-size: 12px;
 	word-spacing: 15px;
+	letter-spacing: 2px;
 }
 
 
@@ -116,16 +134,14 @@ h3 {
 .centerblock {
 	margin: auto;
 	width: var(--content-width);
-	background-color: var(--content-bgcolor);
 }
 .maintext {
 	position: relative;
 	margin-left: var(--content-margin);
-	padding-top: 50px;
+	padding-top: 60px; /* Necessary to keep my face below the header bar */
 	width: var(--content-text-width);
 }
 .mainsection{
-	margin-top: 25px;
 	margin-bottom: 25px;
 }
 .lalign {
@@ -136,21 +152,32 @@ h3 {
 	top: 70px;
 }
 #copy {
+	padding-top: 20px;
+	
+	font-family: var(--alt-font);
 	text-align: center;
-	font-size: 10pt;
-	color: var(--font-color);
+	letter-spacing: 2px;
+	font-size: 10px;
 }
 
 #booklist {
 	font-size:12px;
 }
 
-
-.bottomblock {
-	margin: auto;
-	width: var(--content-width);
+.bottomtext {
+	padding-top: 20px;
 	
-	/*border-top: 1px solid #F0F0F0;*/
-	padding-top: 5px;
-} 
+	font-family: var(--alt-font);
+	text-align: center;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+.bottomblock {
+	margin:auto;
+	color: var(--alt-color);
+	padding-bottom:8px;
+	
+	background-color: var(--alt-bgcolor);
+	border-top: 1px solid #AAA0A0;
+} 	
 
