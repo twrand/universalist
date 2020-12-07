@@ -119,6 +119,12 @@ h3 { /* Used for paper subheadings in subsection */
 	left: 30px;
 	color: var(--color);
 }
+/* Just for my name in the top left */
+#name a {
+	color: var(--color);
+	text-decoration: none;
+}
+
 #menubar {
 	font-family: var(--alt-font);
 	position: absolute;
@@ -127,6 +133,12 @@ h3 { /* Used for paper subheadings in subsection */
 	font-size: 12px;
 	word-spacing: 15px;
 	letter-spacing: 2px;
+}
+/* Special underline for the menu bar only */
+#menubar a:hover{
+	text-decoration: none;
+	padding-bottom: 10px;
+	border-bottom: 5px solid #86B3D1;
 }
 
 
