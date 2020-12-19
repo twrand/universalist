@@ -19,26 +19,67 @@
 	--alt-bgcolor: #FFFFFF;
 }
 
+/* CSS for main buttons */
 .button {
   border: none;
-  color: white;
-  padding: 16px 32px;
+  background: #FFFFFF;
+  padding: 20px 30px 20px 30px;
+  margin: 10px 10px -10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
+  font-size: 24px;
+  transition-duration: 0.2s;
   cursor: pointer;
   
-  
   font-family: var(--header-font);
+  letter-spacing: 2px;
+}
+.button:hover{
+	box-shadow: -1px 5px #86B3D1;
 }
 .button a:hover{
-	text-decoration: none;
-	padding: 0px 32px 11px 32px;
-	margin: 0px -32px 0px -32px;
-	border-bottom: 5px solid #86B3D1;
+	text-decoration:none;
+}
+
+/* CSS for collapsible lists */
+.collapsible {
+	background-color: #FFFFFF;
+	color: #000000;
+	cursor: pointer;
+	padding: 5px;
+	margin-bottom: 3px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.collapsible:after {
+  content: "+"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #000000;
+  float: right;
+  margin-left: 5px;
+}
+.active {
+	box-shadow: 0px 1px #AAAAAA;
+}
+.collapsible:hover {
+    box-shadow: 0px 1px #86B3D1;
+}
+.active:after {
+  content: "–";
+}
+.content {
+	padding: 0px 0px 0px 18px;
+	overflow: hidden;
+	display: none;
+}
+.open {
+	display: block;
 }
 
 

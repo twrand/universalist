@@ -1,0 +1,140 @@
+DO:
+To do list:
+	[X] Compile resources for movie list compilation
+	[X] Compile resources for music list compilation
+	[X] Compile resources for book list compilation
+	[X] Make the book list an expanding list
+	[ ] remove me-specific books from booklist
+	[ ] Make 'to do next' list - start with organizing the book list.
+	[ ] Compile resources for TV compilation
+	
+DO (low priority):
+	[X] Add a favicon of a list to all pages
+	[X] (Quick) edit down the filler text summarizing the project on index.html
+	[X] Improve button css
+	[X] Remove my email at the bottom of each page
+	[X] Remove done checks from booklist on books.html
+
+IN:
+	For each category, add "why do X"? e.g., "Why read? Well - combination of practical importance, cultural importance, historical importance, and enjoyment. Most of humanity's insights are still contained in book form. And it's a very efficient way to consume information / audiobooks can be consumed on the go.
+	Merge Theater and Film? (e.g. "watchable things" vs "listenable things" and "readable things")
+	Separate fiction and nonfiction?
+	List "merits" of each category. e.g.:
+		Fiction: cultural relevance, historical relevance, technical merit, insight, beauty
+		Nonfiction: presentation of scientific or historical facts, scientific or historical analysis, insight
+		Music: technical merit, beauty, cultural & historical relevance, insight
+	For the above, I should look up what makes a good book.
+	Think about how to organize the subjects by genre
+	Outline the expandable nature of the list
+	Fill in an example of what a filled out entry looks like
+	Think about how much to include. An arbitrary number of hours per consumption type? Plans (red, yellow, green, blue) based on 40, 160, 640, 2560 hours of effort?
+	Add a 'methodology' page?
+
+--------------- RESOURCES ---------------------
+
+thegreatestbooks.org has an interesting weighting methodology! I'd like to 
+
+Books resources (fiction):
+	
+
+	Ranker's greatest fiction books of all time
+	https://www.ranker.com/crowdranked-list/best-books-of-all-time-_fiction_
+
+	The Greatest Books .org's Greatest Books of All Time
+	https://thegreatestbooks.org/
+	
+Books resources (nonfiction):
+	Implicit merits:
+		Scientific or historical fact, scientific or historical analysis, insight
+
+Movie resources
+	Hollywood's 100 Favorite Films (2014) 
+	https://www.hollywoodreporter.com/lists/100-best-films-ever-hollywood-favorites-818512
+	
+	AFI's 100 Years, 100 movies (Updated 2007)
+	https://en.wikipedia.org/wiki/AFI%27s_100_Years...100_Movies_(10th_Anniversary_Edition)
+	
+	AFI's 10 top 10.
+	https://en.wikipedia.org/wiki/AFI%27s_10_Top_10
+	
+	Wikipedia's list of New Hollywood Films
+	https://en.wikipedia.org/wiki/New_Hollywood#List_of_notable_films
+	
+	Wikipedia's list of Classical Hollywood Cinema
+	https://en.wikipedia.org/wiki/Classical_Hollywood_cinema#List_of_selected_notable_films
+	
+	Wikipedia's list of films considered the best
+	https://en.wikipedia.org/wiki/List_of_films_considered_the_best
+	
+	The Sight & Sound Greatest Films of All Time 2012
+	https://en.wikipedia.org/wiki/The_Sight_%26_Sound_Greatest_Films_of_All_Time_2012
+	
+	Genre List	
+		Adventure
+		Animated
+		Comedy
+		Crime
+		Biopic
+		Disaster
+		Documentary
+		Experimental
+		Fantasy
+		Historical Fiction
+		Horror
+		Martial arts
+		Melodrama
+		Musical
+		Romance
+		Science fiction
+		Sports
+		Thriller
+		War
+		Western
+
+
+TV show resources
+
+Music resources
+	Rolling Stone's 500 greatest songs of all time
+	https://en.wikipedia.org/wiki/Rolling_Stone%27s_500_Greatest_Songs_of_All_Time
+	
+	Rolling Stone's 100 greatest artists of all time
+	https://www.rollingstone.com/music/music-lists/100-greatest-artists-147446/
+	
+	Rolling Stone Top 500 Albums:
+	http://www.rocklistmusic.co.uk/rs200.html#500Albums_2020
+	
+	Rolling Stone 200: The Essential Rock Collection
+	http://www.rocklistmusic.co.uk/rs200.html
+	
+	joe.ie's 50 most iconic songs of all time
+	https://www.joe.ie/music/the-50-most-iconic-songs-of-all-time-have-been-revealed-513205
+	
+	Ranker's best songs of all time:
+	https://www.ranker.com/crowdranked-list/best-songs-of-all-time-ranked
+	
+	The Billboard Hot 100: All-time top songs
+	https://www.cbsnews.com/news/the-billboard-hot-100-all-time-top-songs/
+	
+	Mangham Math's Top 1000 songs of all time
+	https://manghammath.com/80s%20Hits/The%20Top%201000%20Songs%20of%20AllTime.pdf
+	
+	Genre List
+		African
+		Avante-Garde
+		Blues
+		Caribbean
+		Classical
+		Country
+		Electronic
+		Folk
+		Hip hop / Rap
+		Latin
+		R&B
+		Jazz
+		Musical Theater
+		Opera
+		Pop
+		Rock
+			Metal
+			Punk
