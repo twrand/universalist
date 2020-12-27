@@ -6,8 +6,6 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant|Cantarell">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text">
 		<title> Universal Reading List </title>
-		
-		<!-- script for collapsible content -->
 	</head>
 	<body>
 		<div class=wrapper> <!-- Wrapper class, contains entire web page -->
@@ -19,7 +17,7 @@
 					<div id="menubar">
 						<a href="index.html">HOME</a>
 						<a href="books.html">BOOKS</a>
-						<a href="movies.html">MOVIES</a> 				
+						<a href="movies.html">FILMS</a> 				
 						<a href="music.html">MUSIC</a>
 					</div>
 				</div>
@@ -28,601 +26,122 @@
 			
 			<div class=centerblock>
 				<div class=maintext>
-					<div class=mainsection id="booklist">
+					<div class=mainsection id="medialist">
 						<div class=lalign>
 							<h2> BOOKS </h2>
 						</div>
-						<a class="anchor" name="reading"></a>
-				
+
+					
+						<p>
+							<b> Selection Methodology. </b> Fiction books are taken from the top 200 of <a href="https://thegreatestbooks.org/">The Greatest Books</a>, with certain exceptions made for members of peripheral genres such as classical writings, children's literature, drama, genre fiction and poetry. Nonfiction books include (subject) histories, topic introductions and narratives based on expert recommendations and popular consensus.
+						</p>
+					
+						<p>
+							<b> Organization. </b> Books are classified by subject according to a system adapted from the <a href="https://bisg.org/page/BISACEdition">BISAC Subject Headings List</a>, <a href="https://en.wikipedia.org/wiki/List_of_Dewey_Decimal_classes">Dewey Decimal Classification</a>, and Wikipedia's <a href="https://en.wikipedia.org/wiki/Outline_of_science">Outline of Science</a>. Within sections, books are sorted lexicographically by author's last name.
+						</p>
+						
+						<p>
+							<b> Bias. </b> The list is shaped by institutions with cultural power in the English-speaking world and reflects the biases of those institutions. The standards of cultural and scientific relevance are thus more or less those of American academic culture. It targets literature worth reading in English or English translation. 
+						</p>
+					
 						<br />
 					
-						<button type="button" class="collapsible active"> NONFICTION </button>
-						<div class="content open">
-							<button type="button" class="collapsible"> NATURAL & FORMAL SCIENCE </button>
-							<div class="content">
-								The Structure of Scientific Revolutions. Kuhn. <br />
-								<button type="button" class="collapsible active">PHILOSOPHY</button>
-								<div class="content open">
-									Pragmatism. James. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">MATHEMATICS</button>
-								<div class="content open">
-									A Concise History of Mathematics. Struik. <br />
-									The Princeton Companion to Mathematics. Gowers. <br />
-									Remarkable Mathematicians: From Euler to von Neumann. James.  <br />
-									The Norton History of the Mathematical Sciences. Grattan-Guinness. <br />
-									Proofs from THE BOOK. [Number Theory, Combinatorics, Graph Theory]. Aigner & Zeigler.  <br />
-								</div>
-								
-								<button type="button" class="collapsible active">COMPUTER SCIENCE</button>
-								<div class="content open">
-									Computer: A History of the Information Machine. Campbell-Kelly and Aspray. <br />
-									Norton History of Technology. Cardwell. <br />
-									The Ethical Algorithm. Roth.  <br />
-								</div>
-								
-								<button type="button" class="collapsible active">PHYSICS</button>
-								<div class="content open">
-									Evolution of Physics. Einstein and Infield. <br />
-									Six Easy Pieces and Six Not-So-Easy Pieces. Feynman. <br />
-									Relativity. Einstein. <br />
-									A Brief History of Time. Hawking. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">CHEMISTRY</button>
-								<div class="content open">
-									A Short History of Chemistry. Partington. <br />
-									The Norton History of Chemistry. Brock. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">BIOLOGY</button>
-								<div class="content open">
-									On the Origin of Species. Darwin. <br />
-									The Epic History of Biology. Serafini. <br />
-									What is Life? Schrodinger. <br />
-									Lives of a Cell. Thomas. <br />
-									The Selfish Gene. Dawkins. <br />
-									The Norton History of the Environmental Sciences. Bowler. <br />
-									Life on a Young Planet: The First Three Billion Years of Evolution… Knoll. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">COSMOLOGY</button>
-								<div class="content open">
-									Coming of Age in the Milky Way. Ferris. <br />
-									The Norton History of Astronomy and Cosmology. North. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">EARTH SCIENCE & CLIMATOLOGY</button>
-								<div class="content open">
-									New Views on an Old Planet. Van Andel. <br />
-									The Uninhabitable Earth. Wallace-Wells.  <br />
-									Drawdown. Hawken. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">ENVIRONMENTAL SCIENCE</button>
-								<div class="content open">
-									Plants of the Pacific Northwest Coast. Pojar.  <br />
-									National Audubon Society Field Guide to North American Birds, Western Region. Udvardy.  <br />
-									National Geographic Pocket Guide to the Night Sky of North America. Herbert.  <br />
-									Silent Spring. Carson.  <br />
-									The Sixth Extinction. Kolbert.  <br />
-								</div>
-								
-								<button type="button" class="collapsible active">MEDICINE</button>
-								<div class="content open">
-									The Greatest Benefit to Mankind: A Medical History of Humanity. Porter. <br />
-									The Emperor of All Maladies. Mukherjee. <br />
-								</div>
-							</div>
-							
-							<button type="button" class="collapsible">SOCIAL SCIENCE</button>
-							<div class="content">
-								<button type="button" class="collapsible active">ANTHROPOLOGY</button>
-								<div class="content open">
-									The Mind of Primitive Man. Boas. <br />
-									Interpretation of Cultures. Geertz. <br />
-									Tristes Tropiques. Levi-Strauss.  <br />
-									The Gift. Mauss. <br />
-									Purity and Danger: An Analysis of Pollution and Taboo. Douglas. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">SOCIOLOGY</button>
-								<div class="content open">
-									The Sociological Imagination. Mills. <br />
-									The Social Construction of Reality. Berger and Lachman. <br />
-									The True Believer. Hoffer. <br />
-									Suicide. Durkheim. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">PSYCHOLOGY & PSYCHIATRY</button>
-								<div class="content open">
-									Principles of Psychology. James. <br />
-									The Varieties of Religious Experience. James. <br />
-									The Freud Reader. Gay. <br />
-									The Portable Jung. Campbell. <br />
-									Learning, Memory and Conceptual Processes. Kintsch. <br />
-									The Social Animal. Aronson. <br />
-									Pioneers of Psychology. Faucker. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">RELIGION & MYTHOLOGY</button>
-								<div class="content open">
-									Myth and Meaning. Levi-Strauss. <br />
-									Magic, Science and Religion. Tambiah. <br />
-									Elementary Forms of Religious Life. Durkheim. <br />
-									Mere Christianity. Lewis. <br />
-									Orthodoxy. Chesterton. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">POLITICAL SCIENCE</button>
-								<div class="content open">
-									Leviathan. Hobbes. <br />
-									The Social Contract. Rousseau. <br />
-									Democracy in America. De Toqueville. <br />
-									The Origins of Totalitarianism. Arendt. <br />
-									End of History and the Last Man. Fukuyama. <br />
-									Are Prisons Obsolete? Davis.  <br />
-								</div>
-								
-								<button type="button" class="collapsible active">CRITICAL THEORY</button>
-								<div class="content open">
-									Pedagogy of the Oppressed. Freire. <br />
-									Discipline and Punish. Foucault. <br />
-									Imagined Communities. Anderson. <br />
-									Culture and Imperialism. Said. <br />
-									Modernity at Large. Appadorei. <br />
-									How to Do Nothing: Resisting the Attention Economy. Odell.  <br />
-								</div>
-								
-								<button type="button" class="collapsible active">ECONOMICS</button>
-								<div class="content open">
-									The Wealth of Nations. Smith. <br />
-									The Communist Manifesto. Marx and Engels. <br />
-									The Protestant Ethic and the Spirit of Capitalism. Weber. <br />
-									The Division of Labor. Durkheim.  <br />
-								</div>
-							</div>
-							
-							<button type="button" class="collapsible">PERSONAL IMPROVEMENT</button>
-							<div class="content">
-								<button type="button" class="collapsible active">RATIONALITY</button>
-								<div class="content open">
-									Rationality: A-Z. Yudkowsky.  <br />
-									The Codex. Alexander.  <br />
-								</div>
-								
-								<button type="button" class="collapsible active">EFFECTIVE ALTRUISM</button>
-								<div class="content open">
-									80,000 Hours. Todd.  <br />
-									The Most Good You Can Do. Singer.  <br />
-								</div>
-								
-								<button type="button" class="collapsible active">AMERICAN POLITICS & LAW</button>
-								<div class="content open">
-									The Everything American Government Book. Ragone. <br />
-									What You Should Know About Politics… But Don’t. Conrad. <br />
-									Law 101. Feinman. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">PERSONAL FINANCE & INVESTING</button>
-								<div class="content open">
-									The Intelligent Investor. Cialdini. <br />
-									Making the Most of Your Money Now. Quinn.  <br />
-								</div>
-								
-								<button type="button" class="collapsible active">COMMUNICATIONS</button>
-								<div class="content open">
-									Influence. Cialdini. <br />
-									How to Win Friends and Influence People. Carnegie. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">MENTAL HEALTH</button>
-								<div class="content open">
-									On Becoming a Person. Rogers. <br />
-									Managing Your Mind. Butler.  <br />
-								</div>
-							</div>
-							
-							<button type="button" class="collapsible">HUMAN DIFFERENCE</button>
-							<div class="content">
-								Woman, Race and Class. Davis.
-								<button type="button" class="collapsible active">GENDER, SEX, & BODY</button>
-								<div class="content open">
-									Feminism is for Everybody. Hooks. <br />
-									The Second Sex. de Beauvoir. <br />
-									The Feminine Mystique. Friedan. <br />
-									Stone Butch Blues. Feinberg. <br />
-									Families We Choose: Lesbians, Groups, Kinship. Weston. <br />
-									Hunger. Gay. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">RACE</button>
-								<div class="content open">
-									Ghosts in the Schoolyard. Ewing. <br />
-									The Making of Asian America. Lee. <br />
-									The New Jim Crow: Mass Incarceration in the Age of Colorblindness. Alexander.  <br />
-									Between the World and Me. Coates. <br />
-									White Fragility. DiAngelo.  <br />
-									Politics of the Veil. Scott. <br />
-								</div>
-							
-								<button type="button" class="collapsible active">CLASS</button>
-								<div class="content open">
-									Hillbilly Elegy. Vance. <br />
-									Nickel and Dimed. Ehrenreich. <br />
-									Scarcity. Mullainathan and Shafir. <br />
-								</div>
-							</div>
-							
-							<button type="button" class="collapsible">ARTS</button>
-							<div class="content">
-								<button type="button" class="collapsible active">MUSIC</button>
-								<div class="content open">
-									Music: A Very Short Introduction. Cook. <br />
-									Everything You’ve Ever Wanted to Know About Classical Music… Henley and Jackson. <br />
-									The Rest is Noise. Ross. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">FINE ART</button>
-								<div class="content open">
-									The Judgement of Paris: The Revolutionary Decade… King. <br />
-									Modern Art 1851-1929: Capitalism and Representation. Brettes. <br />
-									Art in Theory 1900-2000. Harrison and Wood. <br />
-									A Short Guide to Writing About Art. Barnet. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">THEATER</button>
-								<div class="content open">
-									History of the Theater. Brockett. <br />
-									The Gilded Stage: A Social History of Opera. Snowman. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">FILM</button>
-								<div class="content open">
-									How to Read a Film. Monaco. <br />
-									The Story of Film: A Worldwide History. Cousins. <br />
-									American Cinema: Directors and Directions. Sarris. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">ARCHITECTURE</button>
-								<div class="content open">
-									Architecture: A World History. Borden, Elzanowski, and Taylor. <br />
-									Brunelleschi’s Dome. King. <br />
-								</div>
-							</div>
-							
-							<button type="button" class="collapsible">HISTORY</button>
-							<div class="content">
-								<button type="button" class="collapsible active">ANCIENT HISTORY</button>
-								<div class="content open">
-									The Human Past: World Prehistory and the Development of Human Societies. Scarre. <br />
-									The Ancient Near East: A Very Short History. Podany. <br />
-									Greek History: The Basics: Osbourne. <br />
-									SPQR: Beard.
-								</div>
-								
-								<button type="button" class="collapsible active">HISTORY BY REGION</button>
-								<div class="content open">
-									1491. Mann.  <br />
-									Europe: A History. Davies. <br />
-									The Middle East: A Brief History of the Last 2,000 years. Lewis. <br />
-									China: A New History. Fairbank. <br />
-									A History of India. Kulke and Rothermund. <br />
-									Africans: The History of a Continent. Iliffe. <br />
-									A People’s History of the United States. Zinn. <br />
-									Age of Extremes: A History of the World 1914-1991. <br />
-								</div>
-								
-								<button type="button" class="collapsible active">HISTORICAL NARRATIVE</button>
-								<div class="content open">
-									Black Reconstruction in America. DuBois. <br />
-									The Death and Life of Great American Cities. Jacobs. <br />
-									Bury My Heart at Wounded Knee. Brown. <br />
-									This Radical Land. Miller.  <br />
-									Making of the Atomic Bomb. Rhodes.  <br />
-									Modern Times. Johnson. <br />
-									Hiroshima. Hersey. <br />
-									Working. Terkel. <br />
-									And the Band Played On. Skilts and Greider. <br />
-									In Cold Blood. Capote. <br />
-								</div>
-							</div>
+						<button type="button" class="collapsible active"> ART </button> <div class="content open">
+							<button type="button" class="collapsible active"> FILM </button> <div class="content open" id="film"> </div> 
+							<button type="button" class="collapsible active"> PERFORMING ARTS (incl. DANCE, MUSIC, and THEATER) </button> <div id="performing" class="content open" id="performing"> </div>
+							<button type="button" class="collapsible active"> VISUAL ARTS (incl. PAINTING, SCULPTURE, and ARCHITECTURE) </button> <div class="content open" id="visual"> </div>
+						</div> 
+						<button type="button" class="collapsible active"> HISTORY </button> <div class="content open">
+							<button type="button" class="collapsible active"> PREHISTORY and CLASSICAL HISTORY </button> <div class="content open" id="prehist"> </div> 
+							<button type="button" class="collapsible active"> WORLD HISTORY (-1914) </button> <div class="content open" id="worldhist"> </div> 
+							<button type="button" class="collapsible active"> CONTEMPORARY HISTORY (1914-) </button> <div class="content open" id="contemphist"> </div> 
+						</div> 
+						<button type="button" class="collapsible active"> LITERATURE </button> <div class="content open">
+							<button type="button" class="collapsible active"> CLASSICAL WRITINGS (-499) </button> <div class="content open" id="classical"> </div> 
+							<button type="button" class="collapsible active"> PREMODERN LITERATURE (500-1499) </button> <div class="content open" id="premodern"> </div> 
+							<button type="button" class="collapsible active"> EARLY MODERN LITERATURE (1500-1799) </button> <div class="content open" id="early"> </div> 
+							<button type="button" class="collapsible active"> 19th CENTURY LITERATURE (1800-1899) </button> <div class="content open" id="19th"> </div> 
+							<button type="button" class="collapsible active"> 20th CENTURY LITERATURE (1900-1975) </button> <div class="content open" id="20th"> </div> 
+							<button type="button" class="collapsible active"> CONTEMPORARY LITERATURE (1976-) </button> <div class="content open" id="21st"> </div> 
+							<button type="button" class="collapsible active"> BIOGRAPHY and MEMOIR </button> <div class="content open" id="biography"> </div> 
+							<button type="button" class="collapsible active"> CHILDREN'S LITERATURE </button> <div class="content open" id="children"> </div> 
+							<button type="button" class="collapsible active"> COMMENTARY and ESSAYS </button> <div class="content open" id="commentary"> </div> 
+							<button type="button" class="collapsible active"> DRAMA </button> <div class="content open" id="drama"> </div> 
+							<button type="button" class="collapsible active"> GENRE FICTION (incl. FANTASY, MYSTERY, ROMANCE, SCI-FI, and WESTERN) </button> <div class="content open" id="genre"> </div> 
+							<button type="button" class="collapsible active"> HISTORICAL NARRATIVE </button> <div class="content open" id="historical"> </div> 
+							<button type="button" class="collapsible active"> LITERARY CRITICISM, RHETORIC and STYLE </button> <div class="content open" id="criticism"> </div> 
+							<button type="button" class="collapsible active"> POETRY </button> <div class="content open" id="poetry"> </div> 
+							<button type="button" class="collapsible active"> WISDOM LITERATURE </button> <div class="content open" id="wisdom"> </div>
+						</div> 
+						<button type="button" class="collapsible active"> APPLIED SCIENCE </button> <div class="content open">
+							<button type="button" class="collapsible active"> BUSINESS and FINANCE </button> <div class="content open" id="business"> </div> 
+							<button type="button" class="collapsible active"> COMMUNICATIONS </button> <div class="content open" id="communications"> </div> 
+							<button type="button" class="collapsible active"> EDUCATION </button> <div class="content open" id="education">
+							</div> 
+							<button type="button" class="collapsible active"> ENGINEERING and TECHNOLOGY </button> <div class="content open" id="engineering"> </div> 
+							<button type="button" class="collapsible active"> MEDICINE </button> <div class="content open" id="medicine"> </div> 
+							<button type="button" class="collapsible active"> RATIONALITY and DECISION SCIENCE </button> <div class="content open" id="rationality"> </div> 
+							<button type="button" class="collapsible active"> POLICY, LAW and GOVERNMENT </button> <div class="content open" id="policy"> </div> 
+							<button type="button" class="collapsible active"> PSYCHIATRY and MENTAL HEALTH </button> <div class="content open" id="psychiatry"> </div>
+						</div> 
+						<button type="button" class="collapsible active"> FORMAL SCIENCE </button> <div class="content open">
+							<button type="button" class="collapsible active"> COMPUTER SCIENCE </button> <div class="content open" id="computer"> </div> 
+							<button type="button" class="collapsible active"> MATHEMATICS </button> <div class="content open" id="math"> </div> 
+							<button type="button" class="collapsible active"> PHILOSOPHY </button> <div class="content open" id="philosophy"> </div>
+						</div> 
+						<button type="button" class="collapsible active"> NATURAL SCIENCE </button> <div class="content open">
+							<div id="natural"> </div>
+							<button type="button" class="collapsible active"> ASTRONOMY </button> <div class="content open" id="astronomy"> </div> 
+							<button type="button" class="collapsible active"> BIOLOGY </button> <div class="content open" id="biology"> </div> 
+							<button type="button" class="collapsible active"> CHEMISTRY </button> <div class="content open" id="chemistry"> </div> 
+							<button type="button" class="collapsible active"> EARTH SCIENCE </button> <div class="content open" id="earth"> </div> 
+							<button type="button" class="collapsible active"> ECOLOGY and ENVIRONMENT </button> <div class="content open" id="ecology"> </div> 
+							<button type="button" class="collapsible active"> PHYSICS </button> <div class="content open" id="physics"> </div>
+						</div> 
+						<button type="button" class="collapsible active"> SOCIAL SCIENCE </button> <div class="content open">
+							<div id="social"> </div>
+							<button type="button" class="collapsible active"> ANTHROPOLOGY </button> <div class="content open" id="anthropology"> </div> 
+							<button type="button" class="collapsible active"> GENDER, SEX, and FAMILY </button> <div class="content open" id="gender"> </div> 
+							<button type="button" class="collapsible active"> ECONOMICS </button> <div class="content open" id="economics"> </div> 
+							<button type="button" class="collapsible active"> LANGUAGE and LINGUISTICS </button> <div class="content open" id="language"> </div> 
+							<button type="button" class="collapsible active"> POLITICAL SCIENCE </button> <div class="content open" id="political"> </div> 
+							<button type="button" class="collapsible active"> PSYCHOLOGY </button> <div class="content open" id="psychology"> </div> 
+							<button type="button" class="collapsible active"> RACE and ETHNICITY </button> <div class="content open" id="race"> </div> 
+							<button type="button" class="collapsible active"> SOCIOLOGY and SOCIAL CLASS </button> <div class="content open" id="sociology"> </div>
 						</div>
 						
-						<button type="button" class="collapsible active">FICTION</button>
-						<div class="content open">
-							<button type="button" class="collapsible">CLASSICAL LITERATURE</button>
-							<div class="content">
-								Odyssey. Homer. <br />
-								Iliad. Homer. <br />
-								Aeneid. Vergil. <br />
-								Histories. Herodotus. <br />
-								Metamorphoses. Ovid. <br />
-								Enneads. Plotinus.  <br />
-							</div>
-							
-							<button type="button" class="collapsible">MEDIEVAL LITERATURE</button>
-							<div class="content">
-								One Thousand and One Nights. Various. <br />
-								Tale of Genji. Shikibu. <br />
-								Decameron. Boccacio. <br />
-								Inferno. Alighieri. <br />
-								Purgatorio. Alighieri. <br />
-								Paradiso. Alighieri. <br />
-								Canterbury Tales. Chaucer. <br />
-								Don Quixote. Cervantes. <br />
-							</div>
-							
-							<button type="button" class="collapsible">BRITISH LITERATURE</button>
-							<div class="content">
-								Tom Jones. Fielding. <br />
-								Tristram Shandy. Sterne.  <br />
-								Gulliver’s Travels. Swift. <br />
-								Robinson Crusoe. Defoe. <br />
-								Pride and Prejudice. Austen. <br />
-								Emma. Austen. <br />
-								Jane Eyre. C. Bronte. <br />
-								Wuthering Heights. E. Bronte. <br />
-								Vanity Fair. Thackeray. <br />
-								Middlemarch. Eliot. <br />
-								Tess of the d’Urbervilles. Hardy. <br />
-								David Copperfield. Dickens. <br />
-								Great Expectations. Dickens. <br />
-								A Tale of Two Cities. Dickens. <br />
-								Picture of Dorian Gray. Wilde. <br />
-								Rebecca. du Maurier.  <br />
-								Brideshead Revisited. Waugh. <br />
-							</div>
-							
-							<button type="button" class="collapsible">FRENCH LITERATURE</button>
-							<div class="content">
-								Madame Bovary. Flaubert. <br />
-								A Sentimental Education. Flaubert. <br /> 
-								The Red and the Black. Stendhal. <br />
-								The Charterhouse of Parma. Stendhal.  <br />
-								Candide. Voltaire. <br />
-								Gargantua and Pantagruel. Rabelais. <br />
-								Cousin Bette. Balzac. <br />
-								The Count of Monte Cristo. Dumas. <br />
-								Le Miserables. Hugo. <br />
-							</div>
-							
-							<button type="button" class="collapsible">RUSSIAN LITERATURE</button>
-							<div class="content">
-								The Brothers Karamazov. Dostoyevsky. <br />
-								Crime and Punishment. Dostoyevsky. <br />
-								The Idiot. Dostoyevsky. <br />
-								The Possessed (Demons). Dostoyevsky. <br />
-								Anna Karenina. Tolstoy. <br />
-								War and Peace. Tolstoy. <br />
-								The Stories of Anton Chekhov. Chekhov. <br />
-								The Complete Stories of Franz Kafka. Kafka.  <br />
-								The Trial. Kafka. <br />
-								Dead Souls. Gogol. <br />
-								Fathers and Sons. Turgenev. <br />
-								The Master and Margarita. Bulgakov. <br />
-							</div>
-							
-							<button type="button" class="collapsible">GERMAN LITERATURE</button>
-							<div class="content">
-								All Quiet on the Western Front. Remarque.  <br />
-								Dr. Faustus. Mann. <br />
-								The Magic Mountain. Mann. <br />
-								The Tin Drum. Grass. <br />
-							</div>
-							
-							<button type="button" class="collapsible">LATIN AMERICAN LITERATURE</button>
-							<div class="content">
-								One Hundred Years of Solitude. Marquez. <br />
-								Love in the Time of Cholera. Marquez. <br />
-								Collected Fiction. Borges. <br />
-							</div>
-							
-							<button type="button" class="collapsible">AMERICAN LITERATURE</button>
-							<div class="content">
-								The Scarlet Letter. Hawthorne. <br />
-								Huckleberry Finn. Twain. <br />
-								Moby-Dick. Melville. <br />
-								The Complete Tales of Edgar Allen Poe. Poe. <br />
-								Uncle Tom’s Cabin. Stowe. <br />
-								Portrait of a Lady. James. <br />
-								Gone With the Wind. Mitchell.  <br />
-								The Age of Innocence. Wharton. <br />
-								Call of the Wild. London. <br />
-								The Good Soldier. Ford.  <br />
-								The Great Gatsby. Fitzgerald. <br />
-								Native Son. Wright.  <br />
-								The Sun Also Rises. Hemingway. <br />
-								The Old Man and the Sea. Hemingway.  <br />
-								For Whom the Bell Tolls. Hemingway. <br />
-								A Farewell to Arms. Hemingway. <br />
-								Grapes of Wrath. Steinbeck. <br />
-								East of Eden. Steinbeck. <br />
-								Of Mice and Men. Steinbeck. <br />
-								Invisible Man. Ellison. <br />
-								The Bell Jar. Plath. <br />
-								The Complete Stories of Flannery O’Connor. O’Connor. <br />
-								Sons and Lovers. Lawrence. <br />
-								The Rainbow. Lawrence. <br />
-								Their Eyes Were Watching God. Hurston. <br /> 
-								To Kill a Mockingbird. Lee.  <br />
-								Lord of the Flies. Golding. <br />
-								On the Road. Kerouac. <br />
-								Catch-22. Heller. <br />
-								One Flew Over the Cuckoo's Nest. Kesey. <br /> 
-								Catcher in the Rye. Salinger. <br />
-								Beloved. Morrison. <br />
-								Song of Solomon. Morrison. <br />
-							</div>
-							
-							<button type="button" class="collapsible">MODERNISM</button>
-							<div class="content">
-								In Search of Lost Time. Proust. <br />
-								A Passage to India. Forster. <br />
-								Howard’s End. Forster. <br />
-								To the Lighthouse. Woolf. <br />
-								Orlando: A Biography. Woolf.  <br />
-								Mrs. Dalloway. Woolf. <br />
-								The Waves. Woolf. <br />
-								A Portrait of the Artist as a Young Man. Joyce. <br />
-								Ulysses. Joyce. <br />
-								Journey to the End of the Night. Celine. <br /> 
-								The Stranger. Camus. <br />
-								The Sound and the Fury. Falkner. <br />
-								As I Lay Dying. Falkner. <br />
-								Absalom, Absalom! Falkner. <br />
-								Under the Volcano. Lowry.  <br />
-								Lolita. Nabokov. <br />
-								Pale Fire. Nabokov. <br />
-							</div>
-							
-							<button type="button" class="collapsible">CONTEMPORARY LITERATURE</button>
-							<div class="content">
-								Americanah. Adichie. <br />
-								Big Sleep. Chandler. <br />
-								Confederacy of Dunces. Toole. <br />
-								Midnight’s Children. Rushdie. <br />
-								If on a Winter’s Night a Traveler. Calvino. <br />
-								Remains of the Day. Ishiguro. <br />
-								The Unbearable Lightness of Being. Kundera. <br />
-								The Color Purple. Walker. <br />
-								The Brief Wondrous Life of Oscar Wao. Diaz. <br />
-								The Wind-Up Bird Chronicles. Murakami. <br />
-								On Earth We're Briefly Gorgeous. Vuong.  <br />
-							</div>
-							
-							<button type="button" class="collapsible">COLONIAL LITERATURE</button>
-							<div class="content">
-								Heart of Darkness. Conrad. <br />
-								Nostromo. Conrad. <br />
-								Lord Jim. Conrad. <br />
-								Scoop. Waugh. <br />
-								Things Fall Apart. Achebe. <br />
-								The Quiet American. Greene. <br />
-								Wide Sargasso Sea. Rhys. <br />
-								White Teeth. Smith.  <br />
-							</div>
-							
-							<button type="button" class="collapsible">POETRY</button>
-							<div class="content">
-								Paradise Lost. Milton. <br />
-								Poems of Alfred Tennyson. Tennyson. <br />
-								Leaves of Grass. Whitman. <br />
-								The Flowers of Evil. Baudelaire. <br /> 
-								Poems of WB Yeats. Yeats. <br />
-								Poems of Emily Dickinson. Dickinson. <br />
-								Poems of Robert Frost. Frost. <br />
-								The Waste Land. Eliot. <br />
-								Howl. Ginsberg. <br />
-							</div>
-							
-							<button type="button" class="collapsible">DRAMA</button>
-							<div class="content">
-								Oresteia Trilogy. Aeschylus. <br />
-								Theban Plays. Sophocles. <br />
-								Medea. Euripides. <br />
-								Hamlet. Shakespeare. <br />
-								King Lear. Shakespeare. <br />
-								Macbeth. Shakespeare.  <br />
-								A Midsummer Night's Dream. Shakespeare. <br /> 
-								The Tempest. Shakespeare. <br />
-								Faust. Goethe. <br />
-								Tartuffe. Moliere. <br />
-								Peer Gynt. Ibsen.  <br />
-								A Doll’s House. Ibsen. <br />
-								Hedda Gabler. Ibsen.  <br />
-								An Enemy of the People. Ibsen. <br /> 
-								Waiting for Godot. Beckett. <br />
-								A Streetcar Named Desire. Williams. <br /> 
-								The Glass Menagerie. Williams.  <br />
-								The Crucible. Miller.  <br />
-								Death of a Salesman. Miller.  <br />
-								Long Day's Journey Into Night. O'Neill. <br /> 
-								The Iceman Cometh. O'Neill.  <br />
-								A Raisin in the Sun. Hansberry.  <br />
-								Who's Afraid of Virginia Woolf? Albee.  <br />
-								Angels In America. Kushner. <br />
-							</div>
-							
-							<button type="button" class="collapsible">FANTASY, SCI-FI & HORROR</button>
-							<div class="content">
-								Dracula. Stoker. <br />
-								Frankenstein. Shelley. <br />
-								Alice's Adventures in Wonderland. Carroll. <br /> 
-								The Strange Case of Dr. Jekyll and Mr. Hyde. Stevenson. <br />
-								20,000 Leagues Under the Sea. Verne. <br />
-								Lord of the Rings. Tolkien. <br />
-								Brave New World. Huxley. <br />
-								Nineteen Eighty-Four. Orwell. <br />
-								Animal Farm. Orwell. <br />
-								Dune. Herbert. <br />
-								Foundation. Asimov. <br />
-								Do Androids Dream of Electric Sheep? Dick. <br />
-								Neuromancer. Gibson  <br />
-								Clockwork Orange. Burgess. <br />
-								The Golden Compass. Pullman. <br />
-								The Subtle Knife. Pullman. <br />
-								The Amber Spyglass. Pullman. <br />
-								The Handmaid’s Tale. Atwood. <br />
-								The Hitchhiker’s Guide to the Galaxy. Adams. <br />
-								Slaughterhouse-Five. Vonnegut. <br />
-							</div>
-							
-							<button type="button" class="collapsible">BIOGRAPHY & MEMOIR</button>
-							<div class="content">
-								Confessions. Augustine. <br />
-								Parallel Lives. Plutarch. <br />
-								Annals. Tacitus. <br />
-								Lives of the Caesars. Suetonius. <br />
-								Confessions. Rousseau. <br />
-								Alexander Hamilton. Chernow. <br />
-								Narrative of the Life of Frederick Douglass. Douglass. <br /> 
-								My First Summer in the Sierra. Muir.  <br />
-								Up From Slavery. Washington. <br />
-								Alan Turing: The Enigma. <br />
-								The Double Helix. Watson. <br />
-								Diary of a Young Girl. Frank. <br />
-								Speak, Memory. Nabokov. <br />
-								The Autobiography of Malcolm X. Haley. <br />
-								I Know Why the Caged Bird Sings. Angelou. <br />
-								Fear and Loathing in Las Vegas. Thompson. <br />
-								La Frontera: The New Mestiza. Anzaldua. <br />
-								A Year of Magical Thinking. Didion. <br />
-								When Breath Becomes Air. Kalanithi. <br />
-								Dreams from my Father. Obama. <br />
-							</div>
-							
-							<button type="button" class="collapsible">ESSAYS & CRITICISM</button>
-							<div class="content">
-								Essays. Montaigne. <br />
-								Pensees. Pascal. <br />
-								Writings of Emerson. Emerson. <br />
-								Walden. Thoreau. <br />
-								A Room of One’s Own. Woolf. <br />
-								Selected Essays of T.S. Eliot. Eliot. <br />
-								Essays of George Orwell. Orwell. <br />
-								Notes of a Native Son. Baldwin. <br />
-								The Fire Next Time. Baldwin. <br />
-								Being Mortal. Gawande. <br />
-								Against Interpretation. Sontag. <br />
-								Slouching Toward Bethlehem. Didion. <br />
-								Aspects of the Novel. Forster. <br />
-								The Great Tradition. Lewis. <br />
-								Elements of Style. Strunk and White. <br />
-							</div>
-							
-							<button type="button" class="collapsible">WISDOM LITERATURE</button>
-							<div class="content">
-								The Pentateuch. Various. <br />
-								The Book of Job. Various. <br />
-								The New Testament. Various. <br />
-								Meditations. Aurelius. <br />
-								The Quran. Muhammad.  <br />
-								Bhagavad-Gita: The Song of God. Prabhavananda (tr.) <br /> 
-							</div>
-						</div>
+						<!-- Load and populate the medialist -->
+						<script src="js/books.js"></script>
+						<script>
+							function bstring(b) {
+								listing = " " + b.author + ". <i>" + b.title +"</i>. ("+b.year+").";
+								if(b.done) { listing = "☑" + listing; }
+								else {       listing = "☐" + listing; }
+								if(b.hasOwnProperty("rank")) {
+									listing = listing + " ["
+									if(b.rank.hasOwnProperty("tgb")) {
+										listing = listing + "TGB #" + b.rank.tgb;
+									}
+									listing = listing + "]"
+								}
+								return listing + " <br />";
+							}
+							function lstring(l) {
+								l.sort((a, b) => (a.author > b.author) ? 1: -1);
+								list = "";
+								for (b of l) { list += bstring(b) }
+								return list;
+							}
 						
+							genres = [
+								"film", "performing", "visual", "prehist", "worldhist", "contemphist", "classical", "premodern", "early", "19th", "20th", "21st", "biography", "children", "commentary", "drama", "genre", "historical", "criticism", "poetry", "wisdom", "business", "communications", "education", "engineering", "medicine", "rationality", "policy", "psychiatry", "computer", "math", "philosophy", "natural", "astronomy", "biology", "chemistry", "earth", "ecology", "physics", "social", "anthropology", "gender", "economics", "language", "political", "psychology", "race", "sociology", "personal"
+							]
+							for (g of genres) {
+								glist = books.filter(obj => {return obj.genre === g});
+								document.getElementById(g).innerHTML = lstring(glist);
+							}
+						</script>
+						<!-- Create the collapsible objects -->
 						<script>
 							var coll = document.getElementsByClassName("collapsible");
 							var i;
@@ -635,7 +154,7 @@
 							  });
 							}
 						</script>
-					</div>
+					</div> <!-- medialist -->
 				</div> <!-- maintext -->
 			</div> <!-- centerblock -->
 			
@@ -643,7 +162,7 @@
 			
 			<div class=bottomblock>
 				<div class=bottomtext>
-					CONTACT: T.RANDOLPH@COLUMBIA.EDU.
+					CONTACT t.randolph@columbia.edu WITH COMMENTS AND ERRATA.
 				</div>
 				
 				<div id="copy"> 
