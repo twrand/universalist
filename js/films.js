@@ -5,12 +5,14 @@ var films = [
 	{ title:"Toy Story", director:"Lasseter", year:1995, done:true, genre:"animated", rank:{afi:99}},
 	
 	// DOCUMENTARY
+	{ title:"Man with a Movie Camera", director:"Vertov", year:1929, done:false, genre:"documentary", rank:{ssc:8, ssd:48}},
 	{ title:"Sans Soleil", director:"Marker", year:1982, done:false, genre:"documentary", },
+	{ title:"Shoah", director:"Lanzmann", year:1985, done:false, genre:"documentary", rank:{ssc:29, ssd:48}},
+	{ title:"Histoire(s) du cinéma", director:"Godard", year:"1988-1998", done:false, genre:"documentary", rank:{ssc:48}},
 	
 	// SILENT
 	{ title:"Sunrise: A Song of Two Humans", director:"Murnau", year:1927, done:false, genre:"silent", rank:{afi:82, ssc:5, ssd:22}},
 	{ title:"Passion of Joan of Arc, The", director:"Dreyer", year:1928, done:false, genre:"silent", rank:{ssc:9, ssd:37}},
-	{ title:"Man with a Movie Camera", director:"Vertov", year:1929, done:false, genre:"silent", rank:{ssc:8, ssd:48}},
 	{ title:"Battleship Potemkin", director:"Eisenstein", year:1925, done:false, genre:"silent", rank:{ssc:11}},
 	{ title:"General, The", director:"Bruckman and Keaton", year:1926, done:false, genre:"silent", rank:{afi:18, ssc:34}},
 	{ title:"Metropolis", director:"Lang", year:1927, done:false, genre:"silent", rank:{ssc:35}},
@@ -182,7 +184,6 @@ var films = [
 	{ title:"E.T.: The Extra-Terrestrial", director:"Spielberg", year:1982, done:true, genre:"blockbuster", rank:{afi:24}},
 	{ title:"Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles", director:"Akerman", year:1975, done:false, genre:"blockbuster", rank:{ssc:35}},
 	{ title:"Stalker", director:"Tarkovsky", year:1979, done:false, genre:"blockbuster", rank:{ssc:29, ssd:30}},
-	{ title:"Shoah", director:"Lanzmann", year:1985, done:false, genre:"blockbuster", rank:{ssc:29, ssd:48}},
 	{ title:"Godfather Part II, The", director:"Coppola", year:1974, done:true, genre:"blockbuster", rank:{afi:32, ssc:31, ssd:30}},
 	{ title:"Taxi Driver", director:"Scorsese", year:1976, done:true, genre:"blockbuster", rank:{afi:52, ssc:31, ssd:5}},
 	{ title:"Rocky", director:"Avildsen", year:1976, done:true, genre:"blockbuster", rank:{afi:57}},
@@ -208,7 +209,6 @@ var films = [
 	{ title:"Mulholland Drive", director:"Lynch", year:2001, done:true, genre:"modern", rank:{ssc:28}},
 	{ title:"Sátántangó", director:"Tarr", year:1994, done:false, genre:"modern", rank:{ssc:35}},
 	{ title:"Close-Up", director:"Kiarostami", year:1990, done:false, genre:"modern", rank:{ssc:42, ssd:37}},
-	{ title:"Histoire(s) du cinéma", director:"Godard", year:"1988-1998", done:false, genre:"modern", rank:{ssc:48}},
 	{ title:"Beau Travail", director:"Denis", year:1998, done:false, genre:"modern", },
 	{ title:"Brighter Summer Day, A", director:"Yang", year:1991, done:false, genre:"modern", },
 	{ title:"Yi Yi", director:"Yang", year:2000, done:false, genre:"modern", },
