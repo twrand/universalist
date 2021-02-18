@@ -59,22 +59,40 @@
 }
 .collapsible:after {
   content: "+"; /* Unicode character for "plus" sign (+) */
-  font-size: 13px;
   color: #000000;
   float: right;
   margin-left: 5px;
 }
-.active {
-	box-shadow: 0px 1px #AAAAAA;
-}
 .collapsible:hover {
     box-shadow: 0px 1px #86B3D1;
 }
+.active {
+	box-shadow: 0px 1px #AAAAAA;
+}
+/* CSS for collapsible book blurbs */
+.book {
+	background-color: #FFFFFF;
+	color: #000000;
+	cursor: pointer;
+	width: 95%;
+	border: none;
+	text-align: left;
+	outline: none;
+	
+	font-size: 12px;
+}
+.book:hover {
+	box-shadow: 0px 1px #86B3D1;
+}
+.book-active {
+	box-shadow: 0px 1px #DDDDDD;
+}
+
 .active:after {
   content: "–";
 }
 .content {
-	padding: 0px 0px 0px 18px;
+	padding: 0px 0px 0px 25px;
 	overflow: hidden;
 	display: none;
 }
@@ -83,12 +101,13 @@
 }
 
 
+
 body {
 	background-color: var(--bgcolor);
 	font-family: var(--font);
 	margin:0;
 	padding:0;
-	font-size: 1.1em;
+	font-size: 14px;
 }
 
 a  { 
@@ -192,14 +211,14 @@ h3 { /* Used for paper subheadings in subsection */
 	position: absolute;
 	top: 21px;
 	right: 20px;
-	font-size: 12px;
+	font-size: 14px;
 	word-spacing: 15px;
 	letter-spacing: 2px;
 }
 /* Special underline for the menu bar only */
 #menubar a:hover{
 	text-decoration: none;
-	padding-bottom: 10px;
+	padding-bottom: 7px;
 	border-bottom: 5px solid #86B3D1;
 }
 
@@ -231,11 +250,11 @@ h3 { /* Used for paper subheadings in subsection */
 	font-family: var(--alt-font);
 	text-align: center;
 	letter-spacing: 2px;
-	font-size: 10px;
+	font-size: 12px;
 }
 
 #medialist {
-	font-size:12px;
+	font-size:14px;
 }
 
 .bottomtext {
@@ -244,7 +263,7 @@ h3 { /* Used for paper subheadings in subsection */
 	font-family: var(--alt-font);
 	text-align: center;
 	letter-spacing: 2px;
-	font-size: 12px;
+	font-size: 14px;
 }
 .bottomblock {
 	margin:auto;

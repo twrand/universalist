@@ -5,6 +5,7 @@
 		<link rel="shortcut icon" href="img/list.ico">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant|Cantarell">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap"
 		<title> Universal Reading List </title>
 	</head>
 	<body>
@@ -31,6 +32,11 @@
 							<h2> BOOKS </h2>
 						</div>
 
+						<p style="color:red">
+							<b>
+								This page is a WORK IN PROGRESS. Until this note is removed, assume the content may contain inaccuracies and is subject to change.
+							</b>
+						</p>
 					
 						<p>
 							<b> Selection Methodology. </b> Fiction books are taken from the top 200 of <a href="https://thegreatestbooks.org/">The Greatest Books</a> (abbreviated TGB), with certain exceptions made for members of peripheral genres such as classical writings, children's literature, drama, genre fiction and poetry. Nonfiction books include (subject) histories, topic introductions and narratives based on expert recommendations and popular consensus.
@@ -41,7 +47,11 @@
 						</p>
 						
 						<p>
-							<b> Bias. </b> The list is shaped by institutions with cultural power in the English-speaking world and reflects the biases of those institutions. The standards of cultural and scientific relevance are thus more or less those of American academic culture. It targets literature worth reading in English or English translation. 
+							<b> Bias. </b> The list is shaped by institutions with cultural power in the English-speaking world and reflects the biases of those institutions. It targets books worth reading in English or English translation. 
+						</p>
+						
+						<p>
+							<b> Acknowledgements. </b> I'm indebted to <a href="https://thegreatestbooks.org/">The Greatest Books</a>, <a href="http://www.editoreric.com/">Editor Eric's The Greatest Literature of All Time</a>, and <a href="https://beckchris.wordpress.com/literature-lists/best-literature-of-all-time-the-critics-picks/">Make Lists, Not War</a> for inspiration. Google Books and Wikipedia were helpful resources. Word counts are taken from various sources and estimated using <a href="https://wordcounters.com/">Word Counters</a> and <a href="https://www.readinglength.com/">Reading Length</a> otherwise. Page count varies greatly by edition, so I generate an approximation corresponding to 300 words per page. Reading Length estimates that the average reader reads 250 words per minute.
 						</p>
 					
 						<br />
@@ -117,14 +127,27 @@
 								listing = " " + b.author + ". <i>" + b.title +"</i>. ("+b.year+").";
 								if(b.done) { listing = "☑" + listing; }
 								else {       listing = "☐" + listing; }
-								if(b.hasOwnProperty("rank")) {
+								if(b.hasOwnProperty("rank")) {  
 									listing = listing + " ["
 									if(b.rank.hasOwnProperty("tgb")) {
 										listing = listing + "TGB #" + b.rank.tgb;
 									}
 									listing = listing + "]"
 								}
-								return listing + " <br />";
+								
+								listing = "<button type=\"button\" class=\"book\">" + listing;
+								listing = listing + "</button> <div class=\"content\">"
+								listing = listing + "<p>\"" + b.sum + "\" ~" + b.ss + ". </p>"
+								listing = listing + "<p><b>Word count:</b> " + b.wc + ". &nbsp;&nbsp; <b>Page count:</b> approx. " + Math.round(b.wc/300) + "p."
+								if(b.hasOwnProperty("gutenberg")) {
+									listing = listing + "&nbsp;&nbsp; <a href=\"" + b.gutenberg + "\">Project Gutenberg</a>"
+								}
+								if(b.hasOwnProperty("librivox")) {
+									listing = listing + "&nbsp;&nbsp; <a href=\"" + b.librivox + "\">LibriVox</a>"
+								}
+								listing = listing + "</p>"
+								listing = listing + "</div>"
+								return listing;
 							}
 							function lstring(l) {
 								l.sort((a, b) => (a.author > b.author) ? 1: -1);
@@ -149,6 +172,17 @@
 							for (i = 0; i < coll.length; i++) {
 							  coll[i].addEventListener("click", function() {
 								this.classList.toggle("active");
+								var content = this.nextElementSibling;
+								content.classList.toggle("open");
+							  });
+							}
+							
+							var coll = document.getElementsByClassName("book");
+							var i;
+
+							for (i = 0; i < coll.length; i++) {
+							  coll[i].addEventListener("click", function() {
+								this.classList.toggle("book-active");
 								var content = this.nextElementSibling;
 								content.classList.toggle("open");
 							  });
