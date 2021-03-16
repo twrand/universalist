@@ -5,7 +5,7 @@
 		<link rel="shortcut icon" href="img/list.ico">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cormorant|Cantarell">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap"
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@700&display=swap">
 		<title> Universal Reading List </title>
 	</head>
 	<body>
@@ -133,6 +133,9 @@
 									listing = listing + " ["
 									if(b.rank.hasOwnProperty("tgb")) {
 										listing = listing + "TGB #" + b.rank.tgb;
+									}
+									if(b.rank.hasOwnProperty("tgbn")) {
+										listing = listing + "TGB-NF #" + b.rank.tgbn;
 									}
 									listing = listing + "]"
 								}
