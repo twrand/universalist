@@ -849,6 +849,12 @@ var books = [
 		librivox:"https://librivox.org/walden-by-henry-david-thoreau/"  },
 	{ title:"A Room of One’s Own", author:"Woolf", year:1929, done:true, genre:"commentary", wc:35220, 
 		ss:"Google Books", sum:"In A Room of One's Own, Virginia Woolf imagines that Shakespeare had a sister—a sister equal to Shakespeare in talent, and equal in genius, but whose legacy is radically different. This imaginary woman never writes a word and dies by her own hand, her genius unexpressed. If only she had found the means to create, argues Woolf, she would have reached the same heights as her immortal sibling. In this classic essay, she takes on the establishment, using her gift of language to dissect the world around her and give voice to those who are without. Her message is a simple one—women must have a fixed income and a room of their own in order to have the freedom to create."  },
+	{ title:"In Praise of Folly", author:"Erasmus", year:1511, done:false, genre:"commentary", wc:29003, 
+		ss:"Google Books", sum:"First published in Paris in 1511, The Praise of Folly enjoyed enormous and highly controversial success during the author's lifetime and down to our own day. The Folly has no rival, except perhaps Thomas More's Utopia, as the most intense and lively presentation of the literary, social, and theological aims and methods of Northern Humanism. Because it was a seminal and widely influential book, critics have often compared its witty and profound ironies with those of Rabelais, Ariosto, Shakespeare, and Cervantes.",
+		gutenberg:"http://gutenberg.org/ebooks/30201" },
+	{ title:"Eichmann in Jerusalem", author:"Arendt", year:1963, done:false, genre:"commentary", wc:101799, 
+		ss:"Google Books", sum:"Sparking a flurry of heated debate, Hannah Arendt’s authoritative and stunning report on the trial of German Nazi leader Adolf Eichmann first appeared as a series of articles in The New Yorker in 1963. This revised edition includes material that came to light after the trial, as well as Arendt’s postscript directly addressing the controversy that arose over her account. A major journalistic triumph by an intellectual of singular influence, Eichmann in Jerusalem is as shocking as it is informative—an unflinching look at one of the most unsettling (and unsettled) issues of the twentieth century." },
+	
 	
 	// DRAMA
 	//{ title:"Who's Afraid of Virginia Woolf?", author:"Albee", year:1962, done:false, genre:"drama", wc:74918, 
@@ -1021,6 +1027,10 @@ var books = [
 		ss:"Google Books", sum:"The Elements of Style is a prescriptive American English writing style guide comprising eight \"elementary rules of usage\", ten \"elementary principles of composition\", \"a few matters of form\", a list of forty-nine \"words and expressions commonly misused\", and a list of fifty-seven \"words often misspelled\". In 2011, Time magazine listed the writing style-guide as one of the 100 best and most influential books written in English since 1923. Cornell University professor of English William Strunk, Jr., wrote The Elements of Style in 1918, and privately published it in 1919, for in-house use at the university. In The Elements of Style (1918), as a professor of English, William Strunk concentrated on specific questions of usage—and the cultivation of good writing—with the recommendation \"Make every word tell\"; hence, the 17th principle of composition is the simple instruction: \"Omit needless words.\"",
 		gutenberg:"http://gutenberg.org/ebooks/37134",
 		librivox:"https://librivox.org/the-elements-of-style-by-william-strunk-jr/"	},
+	{ title:"Poetics", author:"Aristotle", year:"c. 335 BCE", done:false, genre:"criticism", wc:14199, 
+		ss:"Google Books", sum:"Aristotle's Poetics is the earliest surviving work of dramatic theory and first extant philosophical treatise to focus on literary theory. In this text Aristotle offers an account of ποιητική, which refers to poetry or more literally \"the poetic art,\" deriving from the term for \"poet; author; maker,\" ποιητής.",
+		gutenberg:"http://gutenberg.org/ebooks/6763",
+		librivox:"https://librivox.org/poetics-by-aristotle/"	},
 		
 	// Poetry
 	{ title:"The Flowers of Evil", author:"Baudelaire", year:1857, done:false, genre:"poetry", rank:{tgb:99}, wc:77454, 
@@ -1076,6 +1086,14 @@ var books = [
 	{ title:"The New Testament", author:"Various", year:"c. 100", done:false, genre:"wisdom", wc:184600, 
 		ss:"Wikipedia", sum:"The New Testament is the second division of the Christian biblical canon, the first being the Old Testament which is based primarily upon the Hebrew Bible. The New Testament discusses the teachings and person of Jesus, as well as events in first-century Christianity.",
 		gutenberg:"http://www.gutenberg.org/ebooks/10"  },
+	{ title:"Tao Te Ching", author:"Laoze", year:"c.550 BCE", done:false, genre:"wisdom", wc:23620, 
+		ss:"Wikipedia", sum:"The Tao Te Ching, along with the Zhuangzi, is a fundamental text for both philosophical and religious Taoism. It also strongly influenced other schools of Chinese philosophy and religion, including Legalism, Confucianism, and Buddhism, which was largely interpreted through the use of Taoist words and concepts when it was originally introduced to China. Many artists, including poets, painters, calligraphers, and gardeners, have used the Tao Te Ching as a source of inspiration. Its influence has spread widely outside East Asia and it is among the most translated works in world literature.",
+		gutenberg:"http://gutenberg.org/ebooks/216",
+		librivox:"https://librivox.org/daodejing-by-laozi/" },
+	{ title:"Analects", author:"Confucius", year:"c. 400-200 BCE", done:false, genre:"wisdom", wc:43000, 
+		ss:"Wikipedia", sum:"The Analects, also known as the Analects of Confucius, is an ancient Chinese book composed of a large collection of sayings and ideas attributed to the Chinese philosopher Confucius and his contemporaries, traditionally believed to have been compiled and written by Confucius's followers.",
+		gutenberg:"http://gutenberg.org/ebooks/46389",
+		librivox:"https://librivox.org/the-analects-of-confucius/" },
 	
 	// Applied Science
 	{ title:"The Intelligent Investor", author:"Graham", year:1949, done:false, genre:"business", wc:172118, 
