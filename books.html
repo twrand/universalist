@@ -99,7 +99,12 @@
 						<button type="button" class="collapsible active"> FORMAL SCIENCE </button> <div class="content open">
 							<button type="button" class="collapsible active"> COMPUTER SCIENCE </button> <div class="content open" id="computer"> </div> 
 							<button type="button" class="collapsible active"> MATHEMATICS </button> <div class="content open" id="math"> </div> 
-							<button type="button" class="collapsible active"> PHILOSOPHY </button> <div class="content open" id="philosophy"> </div>
+							<button type="button" class="collapsible active"> PHILOSOPHY </button> <div class="content open"> 
+								<div id="philosophy"> </div>
+								<button type="button" class="collapsible active"> METAPHYSICS and EPISTEMOLOGY </button> <div class="content open" id="metaphysics"> </div>
+								<button type="button" class="collapsible active"> ETHICS </button> <div class="content open" id="ethics"> </div>
+								<button type="button" class="collapsible active"> POLITICAL PHILOSOPHY </button> <div class="content open" id="politphil"> See POLITICAL SCIENCE </div>
+							</div>
 						</div> 
 						<button type="button" class="collapsible active"> NATURAL SCIENCE </button> <div class="content open">
 							<div id="natural"> </div>
@@ -162,7 +167,7 @@
 							}
 						
 							genres = [
-								"aesthetics", "film", "performing", "visual", "music", "prehist", "worldhist", "contemphist", "classical", "premodern", "early", "19th", "20th", "21st", "biography", "children", "commentary", "drama", "genre", "historical", "criticism", "poetry", "wisdom", "business", "communications", "education", "engineering", "medicine", "rationality", "policy", "psychiatry", "computer", "math", "philosophy", "natural", "astronomy", "biology", "chemistry", "earth", "ecology", "physics", "social", "anthropology", "gender", "economics", "language", "political", "psychology", "race", "sociology", "personal"
+								"aesthetics", "film", "performing", "visual", "music", "prehist", "worldhist", "contemphist", "classical", "premodern", "early", "19th", "20th", "21st", "biography", "children", "commentary", "drama", "genre", "historical", "criticism", "poetry", "wisdom", "business", "communications", "education", "engineering", "medicine", "rationality", "policy", "psychiatry", "computer", "math", "philosophy", "metaphysics", "ethics", "natural", "astronomy", "biology", "chemistry", "earth", "ecology", "physics", "social", "anthropology", "gender", "economics", "language", "political", "psychology", "race", "sociology", "personal"
 							]
 							for (g of genres) {
 								glist = books.filter(obj => {return obj.genre === g});
