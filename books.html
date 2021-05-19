@@ -19,7 +19,7 @@
 						<a href="index.html">HOME</a>
 						<a href="books.html">BOOKS</a>
 						<a href="movies.html">FILMS</a> 				
-						<a href="music.html">MUSIC</a>
+						<!-- <a href="music.html">MUSIC</a> -->
 					</div>
 				</div>
 			</div>
@@ -32,9 +32,9 @@
 							<h2> BOOKS </h2>
 						</div>
 
-						<p style="color:red">
+						<p style="color:green">
 							<b>
-								This page is a WORK IN PROGRESS. 
+								This list is a perpetual work in progress and subject to change. 
 							</b>
 						</p>
 					
@@ -122,6 +122,7 @@
 							<button type="button" class="collapsible active"> ECONOMICS </button> <div class="content open" id="economics"> </div> 
 							<button type="button" class="collapsible active"> LANGUAGE and LINGUISTICS </button> <div class="content open" id="language"> </div> 
 							<button type="button" class="collapsible active"> POLITICAL SCIENCE </button> <div class="content open" id="political"> </div> 
+							<button type="button" class="collapsible active"> POLITICAL ECONOMY (Including DEVELOPMENT and GLOBALIZATION)</button> <div class="content open" id="polecon"> </div> 
 							<button type="button" class="collapsible active"> PSYCHOLOGY </button> <div class="content open" id="psychology"> </div> 
 							<button type="button" class="collapsible active"> RACE and ETHNICITY </button> <div class="content open" id="race"> </div> 
 							<button type="button" class="collapsible active"> SOCIOLOGY and SOCIAL CLASS </button> <div class="content open" id="sociology"> </div>
@@ -167,7 +168,7 @@
 							}
 						
 							genres = [
-								"aesthetics", "film", "performing", "visual", "music", "prehist", "worldhist", "contemphist", "classical", "premodern", "early", "19th", "20th", "21st", "biography", "children", "commentary", "drama", "genre", "historical", "criticism", "poetry", "wisdom", "business", "communications", "education", "engineering", "medicine", "rationality", "policy", "psychiatry", "computer", "math", "philosophy", "metaphysics", "ethics", "natural", "astronomy", "biology", "chemistry", "earth", "ecology", "physics", "social", "anthropology", "gender", "economics", "language", "political", "psychology", "race", "sociology", "personal"
+								"aesthetics", "film", "performing", "visual", "music", "prehist", "worldhist", "contemphist", "classical", "premodern", "early", "19th", "20th", "21st", "biography", "children", "commentary", "drama", "genre", "historical", "criticism", "poetry", "wisdom", "business", "communications", "education", "engineering", "medicine", "rationality", "policy", "psychiatry", "computer", "math", "philosophy", "metaphysics", "ethics", "natural", "astronomy", "biology", "chemistry", "earth", "ecology", "physics", "social", "anthropology", "gender", "economics", "language", "political", "polecon", "psychology", "race", "sociology", "personal"
 							]
 							for (g of genres) {
 								glist = books.filter(obj => {return obj.genre === g});
